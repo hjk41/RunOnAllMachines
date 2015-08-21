@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>list.txt "psexec \\%25_MachineName_%25 cmd /c echo hello" 2</StartArguments>
+    <StartWorkingDirectory>D:\projects\RunOnAllMachines\RunOnAllMachines\bin\Debug\</StartWorkingDirectory>
+  </PropertyGroup>
+</Project>
